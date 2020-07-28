@@ -2,7 +2,8 @@ from __future__ import print_function
 
 import matplotlib.pyplot as plot
 import importlib
-
+import sys
+import os
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -11,8 +12,7 @@ from torch.autograd import Variable
 
 from option import Options
 from utils import *
-import sys
-import os
+
 
 # global variable
 best_pred = 100.0
