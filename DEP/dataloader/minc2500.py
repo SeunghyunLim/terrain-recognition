@@ -37,7 +37,7 @@ class Dataloder():
             normalize,
         ])
 
-        data_dir = 'dataset/minc-2500'
+        data_dir = '~/lsh/data/minc-2500'
         trainset = datasets.ImageFolder(os.path.join(data_dir, 'train'), transform_train)
         testset = datasets.ImageFolder(os.path.join(data_dir, 'val'), transform_test)
 
@@ -79,7 +79,7 @@ class Lighting(object):
 
 
 if __name__ == "__main__":
-    data_dir = 'dataset/minc-2500'
+    data_dir = '~/lsh/data/minc-2500'
     trainset = datasets.ImageFolder(os.path.join(data_dir, 'train'))
     testset = datasets.ImageFolder(os.path.join(data_dir, 'test'))
     print(trainset.classes)
