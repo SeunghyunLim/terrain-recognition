@@ -8,6 +8,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+
+# original version of transform in torchvision uses only PIL image, not cv2
+# Therefore, opencv_transforms should be installed and used for this function
+# 'pip install opencv_transforms'
 from opencv_transforms import transforms
 from torch.autograd import Variable
 
