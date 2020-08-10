@@ -9,7 +9,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from opencv_transforms import transforms
-import torchvision.transforms as transforms_prev
 from torch.autograd import Variable
 
 from PIL import Image
